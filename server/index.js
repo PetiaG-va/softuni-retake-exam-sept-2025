@@ -12,6 +12,6 @@ app.use(express.json());
 app.use('/users', usersController);
 app.use('/plants', plantsController);
 
-app.listen(3030, () => {
-    console.log('Server running on http://localhost:3030');
+app.listen(4000, () => {
+    console.log('Server running on http://localhost:4000');
 });

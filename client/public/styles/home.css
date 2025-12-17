@@ -1,0 +1,39 @@
+.hero {
+    background: white;
+    padding: 60px 40px;
+    border-radius: 30px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '🌿';
+    position: absolute;
+    font-size: 200px;
+    opacity: 0.05;
+    top: -50px;
+    right: -50px;
+    transform: rotate(-20deg);
+}
+
+.hero h1 {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    color: #2e7d32;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 18px;
+    color: #558b2f;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}

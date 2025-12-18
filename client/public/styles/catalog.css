@@ -8,7 +8,7 @@
 #catalog-title {
     margin: 0;
     color: #2e7d32;
-    font-size: 36px;
+    font-size: 36px; 
 }
 
 .cards-grid {
@@ -29,6 +29,14 @@
 .empty-state {
     text-align: center;
     padding: 60px 20px;
+}
+
+.empty-state h3 {
+    color: #2e7d32;
+}
+
+.empty-state p {
+    font-style: italic;
 }
 
 .empty-state-icon {
